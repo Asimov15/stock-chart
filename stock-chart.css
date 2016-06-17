@@ -1,3 +1,16 @@
+span.ack
+{
+	font-size: 50%;
+	float: right;
+}
+
+div.exchange
+{
+	border:1px solid black;
+	float:left;
+	border-style: groove;
+}
+
 div.dz
 {
 /*
@@ -33,9 +46,9 @@ div.validate2
 {    
     margin-left: auto;
     margin-right: auto;
-    width: 20em;
-    height: 4em;
-    padding: 70px;
+    width: auto;
+    height: auto;
+    padding: 10px;
 }
 
 h1.dz
@@ -86,29 +99,49 @@ input
 	float: right;
 }
 
-input.code
+input.num
 {
 	text-transform: uppercase;
-	width: 4em;
+	width: 3em;
+	text-align: right;
+}
+
+input.str
+{
+	text-transform: uppercase;
+	width: 3em;
+	text-align: left;
 }
 
 #outer1
 {
     float: left; 
-    width: 24%;
-    margin-right: 0px;
+    width: 20%;            
 }
 
 #outer2 
 {   float: left; 
-    width: 40%; 
-    margin-right: 0px;
+    width: 20%;
+    text-align: right;
 }
 
 #outer3
+{   float: left; 
+    width: 20%; 
+    margin-right: 0px;
+    margin-left: 50px;
+}
+
+#outer4
+{   float: left; 
+    width: auto; 
+    margin-right: 0px;
+}
+
+#outer5
 {
     float: right; 
-    width: 36%;
+    width: 20%;
 }
 
 #outer1, #outer2, #outer3 
